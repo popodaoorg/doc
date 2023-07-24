@@ -16,6 +16,6 @@
 {% hint style="info" %}
 如你在接入过程中遇到任何问题，可随时联系在线客服和我们取得联系。
 
-[https://t.me/UPay\_ink](https://t.me/UPay\_ink)
+[**技术支持**](https://t.me/UPay\_ink)
 {% endhint %}
 
