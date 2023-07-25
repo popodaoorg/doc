@@ -8,11 +8,9 @@
 
 <div align="left">
 
-<figure><img src="https://web.upay.ink/authenticator-android.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1_993132544_171_86_3_722859662_589b63b6eb189ae6b5eca186f1a9dffe.png" alt=""><figcaption></figcaption></figure>
 
 </div>
-
-
 
 ## 苹果 iOS 下载
 
