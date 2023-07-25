@@ -4,5 +4,6 @@
 
 演示地址：[https://web.upay.ink/payment](https://web.upay.ink/payment)
 
-\
-![](https://web.upay.ink/static/doc/css/1.png)
+
+
+<figure><img src="../.gitbook/assets/Xnip2023-07-25_10-41-14.jpg" alt="" width="375"><figcaption></figcaption></figure>
