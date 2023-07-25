@@ -6,8 +6,4 @@
 
 
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/Xnip2023-07-25_10-41-14.jpg" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../.gitbook/assets/en.png" alt=""><figcaption></figcaption></figure>
