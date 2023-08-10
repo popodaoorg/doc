@@ -6,6 +6,8 @@ description: >-
 
 # 👋 简介
 
+<figure><img src=".gitbook/assets/upay.ink.png" alt=""><figcaption></figcaption></figure>
+
 ## 系统介绍
 
 UPay 是专业的 USDT 支付平台，简单易用、安全稳定、不掉单/不撞单，强大的财务管理功能。用户直接付款到您自己的钱包地址，确保您的资金安全，支持 API 收付款。自带 USDT 风控系统，可以避免您收到黑U和标记U。可个性化功能定制、私有化部署。
