@@ -24,6 +24,7 @@
 
 ## 其他 <a href="#other" id="other"></a>
 
-* [📔 常见问题](https://docs.upay.ink/help/faq)
 * [🔑 Google 验证器](other/google-authenticator.md)
-* [🌎 在线测试](other/demo.md)
+* [📔 常见问题](https://docs.upay.ink/help/faq)
+* [🚀 收款演示](https://web.upay.ink/payment)
+* [👨💻 技术支持](https://t.me/UPay\_ink)
