@@ -6,7 +6,9 @@ description: >-
 
 # 👋 简介
 
-<figure><img src=".gitbook/assets/upay.ink.png" alt=""><figcaption></figcaption></figure>
+
+
+<figure><img src=".gitbook/assets/upay.ink (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 系统介绍
 
