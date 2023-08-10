@@ -27,7 +27,5 @@ UPay 是专业的 USDT 支付平台，简单易用、安全稳定、不掉单/�
 如你在接入过程中遇到任何问题，可随时联系在线客服和我们取得联系。
 
 [**技术支持**](https://t.me/UPay\_ink)
-
-[**UPay 使用说明**](https://docs.upay.ink/help/)
 {% endhint %}
 
