@@ -16,6 +16,14 @@ UPay 是专业的 USDT 支付平台，简单易用、安全稳定、不掉单/�
 
 
 
+## 收款演示
+
+<div align="left">
+
+<figure><img src=".gitbook/assets/UPay-2.gif" alt="" width="300"><figcaption></figcaption></figure>
+
+</div>
+
 
 
 ## 在开始接入之前，你需要：
