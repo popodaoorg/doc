@@ -10,6 +10,7 @@
 
 ## 订单 <a href="#order" id="order"></a>
 
+* [🛒 提交订单](order/ti-jiao-ding-dan.md)
 * [💰 余额查询](order/balance-search.md)
 * [🛒 统一下单](order/unified-order.md)
 * [🚩 手动补单](order/supplement.md)
