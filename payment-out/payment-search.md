@@ -8,7 +8,7 @@
 
 **请求类型：**application/json
 
-<table><thead><tr><th width="186">字段名称</th><th width="139">字段类型</th><th width="99">是否必填</th><th width="97">是否签名</th><th>说明</th></tr></thead><tbody><tr><td>appId</td><td>string(8)</td><td>是</td><td>是</td><td>商户号</td></tr><tr><td>merchantOrderNo</td><td>string(14-32)</td><td>是</td><td>是</td><td>商户订单号</td></tr><tr><td>signature</td><td>string(32)</td><td>是</td><td>是</td><td>数据签名，详见：<a href="broken-reference">签名算法</a></td></tr></tbody></table>
+<table><thead><tr><th width="186">字段名称</th><th width="139">字段类型</th><th width="99">是否必填</th><th width="97">是否签名</th><th>说明</th></tr></thead><tbody><tr><td>appId</td><td>string(8)</td><td>是</td><td>是</td><td>商户号</td></tr><tr><td>merchantOrderNo</td><td>string(14-32)</td><td>是</td><td>是</td><td>商户订单号</td></tr><tr><td>signature</td><td>string(32)</td><td>是</td><td>是</td><td>数据签名，详见：<a href="../introduction/signature.md">签名算法</a></td></tr></tbody></table>
 
 #### **返回值 data 参数：**
 
