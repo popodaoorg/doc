@@ -6,6 +6,7 @@
 
 * [💡 安全说明](introduction/security.md)
 * [🔗 签名算法](introduction/signature.md)
+* [🧩 公共参数](introduction/gong-gong-can-shu.md)
 
 ## 订单 <a href="#order" id="order"></a>
 
