@@ -14,9 +14,9 @@
 * [🔍 订单查询](order/order-search.md)
 * [🔔 订单异步通知](order/order-notify.md)
 * [🚩 手动补单](order/supplement.md)
+* [🗳️ 收银台](order/checkout.md)
 * [💰 余额查询](order/balance-search.md)
 * [🛒 统一下单](order/unified-order.md)
-* [🗳️ 收银台](order/checkout.md)
 
 ## 代付 <a href="#payment-out" id="payment-out"></a>
 
