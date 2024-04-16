@@ -12,7 +12,7 @@
 * [💰 余额查询](order/balance-search.md)
 * [🛒 统一下单](order/unified-order.md)
 * [🚩 手动补单](order/supplement.md)
-* [🗳 收银台](order/checkout.md)
+* [🗳️ 收银台](order/checkout.md)
 * [🔍 订单查询](order/order-search.md)
 * [🔔 订单异步通知](order/order-notify.md)
 
@@ -27,4 +27,4 @@
 * [🔑 Google 验证器](other/google-authenticator.md)
 * [📔 UPay 使用说明](https://docs.upay.ink/help/)
 * [🚀 收款演示](https://web.upay.ink/payment)
-* [👨💻 技术支持](https://t.me/UPay\_ink)
+* [👨‍💻 技术支持](https://t.me/UPay\_ink)
