@@ -20,7 +20,6 @@
 
 * [📤 提交代付](payment-out/payment-apply.md)
 * [🔎 代付查询](payment-out/payment-search.md)
-* [📬 代付异步通知](payment-out/payment-notify.md)
 
 ## 其他 <a href="#other" id="other"></a>
 
