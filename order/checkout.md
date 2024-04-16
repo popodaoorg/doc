@@ -6,4 +6,8 @@
 
 
 
-<figure><img src="../.gitbook/assets/en.png" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/syt-zh.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
