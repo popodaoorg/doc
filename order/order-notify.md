@@ -1,19 +1,28 @@
 # 🔔 订单异步通知
 
-> 订单完成后，系统会自动向订单关联的回调地址（notifyUrl）发送通知消息，告知该笔订单的最终状态。
+> 用户支付完成后，系统会自动向订单关联的回调地址（notify\_url）发送通知消息，告知该笔订单已支付完成。
 
-**请求方法：**POST
+**请求方式：**POST
 
-**请求类型：**application/json
+**传参方式：**数组
 
 **请求参数：**
 
-<table><thead><tr><th width="188">字段名称</th><th width="119">字段类型</th><th width="102">是否必填</th><th width="99">是否签名</th><th>说明</th></tr></thead><tbody><tr><td>appId</td><td>string</td><td>是</td><td>是</td><td>商户号</td></tr><tr><td>orderNo</td><td>string</td><td>是</td><td>是</td><td>UPay 订单号</td></tr><tr><td>merchantOrderNo</td><td>string</td><td>是</td><td>是</td><td>商户订单号</td></tr><tr><td>chainType</td><td>string</td><td>是</td><td>是</td><td><p>链路：</p><p>1: 波场(TRC20)</p><p>2: 以太坊(ERC20)  </p><p>3: PayPal(PYUSD)</p></td></tr><tr><td>crypto</td><td>string</td><td>是</td><td>是</td><td>金额，单位 USDT / PYUSD</td></tr><tr><td>actualCrypto</td><td>string</td><td>是</td><td>是</td><td>订单实付金额，单位 USDT / PYUSD</td></tr><tr><td>poundage</td><td>string</td><td>是</td><td>是</td><td>手续费，单位 USDT / PYUSD</td></tr><tr><td>actualPoundage</td><td>string</td><td>是</td><td>是</td><td>订单实付手续费，单位 USDT / PYUSD</td></tr><tr><td>status</td><td>string</td><td>是</td><td>是</td><td><p>订单状态：<a href="order-search.md#ding-dan-zhuang-tai">订单状态</a></p><p>​</p></td></tr><tr><td>createdAt</td><td>string</td><td>是</td><td>是</td><td>订单创建时间，Unix 秒级时间戳</td></tr><tr><td>completedAt</td><td>string</td><td>是</td><td>是</td><td>订单完成时间，Unix 秒级时间戳</td></tr><tr><td>attach</td><td>string</td><td>否</td><td>否</td><td>用户自定义数据，在回调到 notifyUrl 的时候会原样返回</td></tr><tr><td>signature</td><td>string</td><td>是</td><td>是</td><td>数据签名，详见：<a href="../introduction/signature.md">签名算法</a></td></tr></tbody></table>
+<table><thead><tr><th width="207.5">字段名称</th><th>说明</th></tr></thead><tbody><tr><td>appid</td><td>商户号</td></tr><tr><td>pay_money</td><td>金额，单位 CNY</td></tr><tr><td>pay_usdt</td><td>金额，单位 USDT</td></tr><tr><td>order_sn</td><td>商户订单号</td></tr><tr><td>status</td><td>订单状态：<a href="order-search.md">查看订单查询表中的订单状态</a></td></tr><tr><td>success_time</td><td>成功时间</td></tr><tr><td>attach</td><td>用户附加数据</td></tr><tr><td>signature</td><td>数据签名 详见<a href="../introduction/signature.md">签名算法</a></td></tr></tbody></table>
 
-### 通知返回 <a href="#tong-zhi-fan-hui" id="tong-zhi-fan-hui"></a>
 
-商户在收到通知信息后，在响应体的 body 中输出 OK 或者 ok（php例子：echo "OK";) ，否则会重复 5 次发送点对点通知。
 
-### 重试规则如下： <a href="#tong-zhi-fan-hui" id="tong-zhi-fan-hui"></a>
+## 通知返回
 
-如第一次通知失败，后续通知频率（秒）：10，30，60，300，600 。
+商户在收到通知信息后，在页面输出“OK”（ OK 两个字母大写， php例子：echo "OK";) ，否则会重复5次发送点对点通知.
+
+
+
+## 通知重试
+
+系统向商户创建订单时指定的 notify\_url 发送 回调通知 后，如该 notify\_url 返回的不是 “OK”（ 没有双引号，OK 两个字母大写 )，则系统会触发 重试机制。
+
+**相关规则如下：**
+
+1. 间隔 5 秒，会进行第 1 次重试。
+2. 如第一次重试仍为失败，后续通知频率（秒）：10，20，60，300。超过 5 分钟后如需推送，可以在后台手动补发。
