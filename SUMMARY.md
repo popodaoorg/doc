@@ -24,5 +24,5 @@
 ## 其他 <a href="#other" id="other"></a>
 
 * [📔 UPay 使用说明](https://docs.upay.ink/help/)
-* [🚀 收款演示](https://app.upay.ink/payment/index?id=joz4QnND)
+* [🚀 收款演示](https://app.upay.ink/#/payment/index?id=joz4QnND)
 * [👨‍💻 技术支持](https://t.me/UPay\_ink)
