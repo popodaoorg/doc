@@ -10,7 +10,7 @@
 
 商户务必开启基于 **Google Authenticator** 的两步登录安全验证，防范因账密泄漏导致的资产安全问题。
 
-软件下载：[**Google Authenticator**](../other/google-authenticator.md)\
+软件下载：[**Google Authenticator**](broken-reference)\
 
 
 ## 接口安全
